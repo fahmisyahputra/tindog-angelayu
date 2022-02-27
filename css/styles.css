@@ -1,0 +1,144 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/****************************** SECTION TITLE ****************************/
+
+/****************************** PART NAVBAR ****************************/
+
+.container-fluid {
+    padding: 1% 10%;
+}
+
+.navbar-brand {
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+.title-page {
+    padding-top: 10%;
+}
+
+
+
+
+/****************************** PART BUTTON ****************************/
+.btn, .btn-dark {
+    font-family: Montserrat;
+    margin-top: 10%;
+}
+
+.btn-outline-light {
+    margin-left: 10%;
+} 
+
+/****************************** PART ROTATE IMG DOG ****************************/
+.img-dog {
+    transform: rotate(20deg);
+    margin-top: 10%;
+    width: 60%;
+}
+
+/****************************** SECTION FEATURES ****************************/
+
+#features {
+    padding: 10%;
+}
+
+.row h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
+
+.row p {
+    color: #8f8f8f;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.icon-features {
+    font-size: 3rem;
+    color: #ef8172;
+    padding: 1rem;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+/****************************** SECTION TESTIMONIALS ****************************/
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.h2-testi {
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #fff;
+}
+
+.img-testi {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.name-testi {
+    color: #fff;
+}
+
+/****************************** SECTION PRESS ****************************/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.img-press {
+    width: 15%;
+    margin: 0 20px;
+}
+
+/****************************** SECTION CAROUSEL ****************************/
+
+/* untuk membuat button next/prev nya diluar section features. agar tidak tereksekusi padding.
+maka padding nya ditambahin di bagian h2,img,dan text nya doang. */
+.carousel-inner {
+    padding: 7% 15%;
+}
