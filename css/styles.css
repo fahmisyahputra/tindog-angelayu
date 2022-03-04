@@ -5,6 +5,8 @@
 
 *{
     font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -12,6 +14,12 @@ h1 {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
 }
 
 /****************************** SECTION TITLE ****************************/
@@ -46,26 +54,27 @@ h1 {
 
 
 /****************************** PART BUTTON ****************************/
-.btn, .btn-dark {
-    font-family: Montserrat;
+.tombol-ios {
     margin-top: 10%;
 }
 
-.btn-outline-light {
+.tombol-andro {
     margin-left: 10%;
+    margin-top: 10%;
 } 
 
 /****************************** PART ROTATE IMG DOG ****************************/
 .img-dog {
     transform: rotate(20deg);
-    margin-top: 10%;
+    /* margin-top: 10%; */
     width: 60%;
 }
 
 /****************************** SECTION FEATURES ****************************/
 
 #features {
-    padding: 10%;
+    /* padding: 10%; */
+    padding-top: 150px;
 }
 
 .row h3 {
@@ -82,7 +91,7 @@ h1 {
     padding-top: 1rem;
 }
 
-.col-lg-4 {
+.kolom-fitur {
     text-align: center;
     padding: 5% 0;
 }
@@ -141,4 +150,115 @@ h1 {
 maka padding nya ditambahin di bagian h2,img,dan text nya doang. */
 .carousel-inner {
     padding: 7% 15%;
+}
+
+/****************************** SECTION PRICING ****************************/
+
+#pricing {
+    text-align: center;
+    padding: 10% 0;
+}
+
+.header-harga {
+    padding-bottom: 5%;
+    line-height: 4;
+}
+
+.kartu-pricing {
+    padding: 0 10%;
+}
+
+.tombol-pricing {
+    margin-top: 20px;
+}
+
+/****************************** TEST Z-INDEkS TITLE PAGE ****************************/
+
+/* .title-page {
+    position :relative;
+    z-index: 0;
+}
+
+#features {
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+    background-color: white;
+} */
+
+.img-dog {
+    position: absolute;
+    width: 30%;
+    z-index: 0;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.judul-container {
+    padding-bottom: 10%;
+}
+
+/****************************** TEST MOBILE MEDIA QUERIES ****************************/
+
+@media (max-width: 990px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .img-dog{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 30px;
+        width: 80%;
+        /* width: 80%;
+        margin: 15% auto; */
+    }
+}
+
+/****************************** SECTION CTA ****************************/
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.cta-teks {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+    color: #fff;
+}
+@media (max-width: 990px) {
+    .cta-teks {
+        width: 80%;
+    }
+}
+
+.tombol-ios-cta {
+    margin-top: 5%;
+}
+
+.tombol-andro-cta {
+    margin-left: 5%;
+    margin-top: 5%;
+} 
+
+/****************************** SECTION FOOTER ****************************/
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.logo-footer i {
+    padding: 30px 10px;
 }
